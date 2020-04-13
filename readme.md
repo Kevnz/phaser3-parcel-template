@@ -34,13 +34,13 @@ npm install -g parcel-bundler
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/ourcade/phaser3-parcel-template.git
+git clone https://github.com/Kevnz/phaser3-parcel-template.git
 ```
 
 This will create a folder named `phaser3-parcel-template`. You can specify a different folder name like this:
 
 ```bash
-git clone https://github.com/ourcade/phaser3-parcel-template.git my-folder-name
+git clone https://github.com/Kevnz/phaser3-parcel-template.git my-folder-name
 ```
 
 Go into your new project folder and install dependencies:
@@ -105,59 +105,8 @@ Example `public` structure:
 
 They can then be loaded by Phaser with `this.image.load('my-image', 'images/my-image.png')`.
 
-## TypeScript
 
-It just works. (Thanks to Parcel)
 
-You can rename all the `.js` files to `.ts` and start using TypeScript.
-
-You may also want to add a `tsconfig.json` file to the project root like this:
-
-```
-{
-	"compilerOptions": {
-		"target": "es2016",
-		"module": "es6",
-		"strict": true,
-		"noImplicitAny": false,
-		"noEmit": true,
-		"allowJs": true,
-		"jsx": "preserve",
-		"importHelpers": true,
-		"moduleResolution": "node",
-		"experimentalDecorators": true,
-		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-		"sourceMap": true,
-		"baseUrl": "./src",
-		"paths": {
-		  "~/*": ["./*"]
-		},
-		"typeRoots": [
-			"node_modules/@types",
-			"node_module/phaser/types"
-		],
-		"types": [
-			"phaser"
-		]
-	},
-	"include": [
-		"src/**/*"
-	]
-}
-```
-
-[More information on `tsconfig.json` options here.](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
-
-[Note on how Parcel handles `baseUrl` and `paths`.](https://gist.github.com/croaky/e3394e78d419475efc79c1e418c243ed)
-
-## Flow
-
-It just works. (Thanks to Parcel)
-
-Just put `// @flow` at the top of your `.js` files. Parcel will handle the rest.
-
-[Go here for more information on how to use Flow](https://flow.org/).
 
 ## Dev Server Port
 
@@ -179,4 +128,4 @@ Change 8000 to whatever you want.
 
 ## License
 
-[MIT License](https://github.com/ourcade/phaser3-parcel-template/blob/master/LICENSE)
+[MIT License](https://github.com/Kevnz/phaser3-parcel-template/blob/master/LICENSE)

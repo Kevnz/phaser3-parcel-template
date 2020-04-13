@@ -7,17 +7,19 @@
 		"build": "parcel build src/index.html --out-dir dist",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"author": "supertommy",
+	"author": "kevnz<kevin.isom@gmail.com>",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ourcade/phaser3-parcel-template.git"
+		"url": "https://github.com/kevnz/phaser3-parcel-template.git"
 	},
-	"homepage": "https://github.com/ourcade/phaser3-parcel-template",
+	"homepage": "https://github.com/kevnz/phaser3-parcel-template",
 	"devDependencies": {
+		"@kev_nz/eslint-config": "^5.2.0",
+		"eslint": "^6.8.0",
+		"minimist": ">=1.2.2",
 		"parcel-plugin-clean-easy": "^1.0.2",
-		"parcel-plugin-static-files-copy": "^2.2.1",
-		"minimist": ">=1.2.2"
+		"parcel-plugin-static-files-copy": "^2.2.1"
 	},
 	"dependencies": {
 		"phaser": "^3.22.0"
